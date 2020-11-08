@@ -1,0 +1,3 @@
+# wallpicr
+
+Generate fancy wallpapers.
