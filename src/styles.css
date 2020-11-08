@@ -1,0 +1,54 @@
+html, body {
+    background: #000;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+  }
+  
+  canvas {
+     position: absolute;
+     top: 0;
+     left: 0;
+  }
+  
+  label {
+    padding: 4px;
+  }
+  
+  input[type=number] {
+    margin: 4px;
+  }
+
+  #panel button {
+    margin:4px;
+  }
+
+  #wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  #panel {
+    display: grid;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 500px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.3);
+    grid-template-columns: 2fr 4fr 1fr;
+  }
+  
+  input + div {
+    padding: 4px;
+    text-align: center
+  }

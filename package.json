@@ -1,0 +1,10 @@
+{
+  "name": "wallpicr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Schmidt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}

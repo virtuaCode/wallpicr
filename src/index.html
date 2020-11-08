@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpicr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <canvas id="canvas" width="1000" height="1000"></canvas>
+        <a id="download" hidden></a>
+        <div id="panel">
+            <label>Color Range</label>
+            <input id="color1" type="range" min="1" max="360" name="color1" value="360" />
+            <div id="color1-value">
+            </div>
+            <label>Color Shift</label>
+            <input id="color2" type="range" min="-180" max="180" name="color2" value="0" />
+            <div id="color2-value">
+            </div>
+            <label>Line Length</label>
+            <input id="distance" type="range" min="1" max="1000" name="distance" value="200" />
+            <div id="distance-value">
+            </div>
+            <label>Line Width</label>
+            <input id="width" type="range" min="1" max="100" name="width" value="1" />
+            <div id="width-value">
+            </div>
+            <label>Particles</label>
+            <input id="particles" type="range" min="0" max="1000" name="particles" value="100" />
+            <div id="particles-value">
+            </div>
+
+            <input id="imgwidth" type="number" value="1920"/>
+            <input id="imgheight" type="number" value="1080"/>
+            <button id="save">Save</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/js-quadtree"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
